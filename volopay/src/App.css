@@ -1,0 +1,29 @@
+.tabs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: blue;
+  color: white;
+  height: 70px;
+  font-size: 1.5rem;
+}
+.card{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.cardtype{
+position: absolute;
+top: 5px;
+right: 10px;
+}
+.cardList{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+   
+}
